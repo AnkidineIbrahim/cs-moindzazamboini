@@ -1,5 +1,16 @@
 [build]
-nixpkgs = [
-  "php83Extensions.pdo_mysql",
-  "php83Extensions.mysqli"
+builder = "NIXPACKS"
+
+[php]
+version = "8.3"
+
+extensions = [
+  "pdo",
+  "pdo_mysql",
+  "mbstring",
+  "openssl",
+  "tokenizer",
+  "ctype",
+  "json",
+  "fileinfo"
 ]
