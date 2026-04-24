@@ -1,2 +1,5 @@
 [build]
-nixpkgs = ["php83Extensions.pdo_mysql"]
+nixpkgs = [
+  "php83Extensions.pdo_mysql",
+  "php83Extensions.mysqli"
+]
